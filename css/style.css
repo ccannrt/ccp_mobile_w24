@@ -17,13 +17,13 @@ body {
     padding: 3px;
 }
 .skip {
-    left:-999px;
+    left:50%;
     position:absolute;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-    z-index:-999;
+    transform:translateY(-500%)
+}
+.skip:focus {
+    transform: translateY(0%);
+    background-color: #000000;
 }
 .nav_list {
     text-align: center;
