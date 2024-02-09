@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: reduce) {
+    img[src$='.gif'], video {
+        display: none;
+    }
+  }
 header {
     margin: 30px 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +15,15 @@ body {
 *:focus {
     border: solid #ffa500 2px;
     padding: 3px;
+}
+.skip {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
 }
 .nav_list {
     text-align: center;
