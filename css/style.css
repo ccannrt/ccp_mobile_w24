@@ -22,7 +22,7 @@ body {
     transform:translateY(-500%)
 }
 .skip:focus {
-    transform: translateY(0%);
+    transform: translateY(100%);
     background-color: #000000;
 }
 .nav_list {
